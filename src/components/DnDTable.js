@@ -247,8 +247,6 @@ class DnDTable extends Component {
     });
   }
 
-
-
   render() {
     const { reOrder, saveOrder } = this;
     const { entities, selectedRowIds, reorderEnabled } = this.state;

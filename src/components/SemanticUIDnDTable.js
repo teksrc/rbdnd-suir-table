@@ -76,7 +76,7 @@ const multiSelect = (
   return combined;
 };
 
-class DnDTable extends Component {
+class SemanticUIDnDTable extends Component {
   state = {
     entities: filledArr,
     reorderEnabled: false,
@@ -315,4 +315,4 @@ class DnDTable extends Component {
   }
 }
 
-export default DnDTable;
+export default SemanticUIDnDTable;
